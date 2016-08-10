@@ -1,28 +1,13 @@
-== README
+== Build a Blog with Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Source code for the [Scotch.io tutorial](https://scotch.io/tutorials/build-a-blog-with-ruby-on-rails-part-1)
 
-Things you may want to cover:
+To get started:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+```
+$ git clone git@github.com:kinsomicrote/scotch-blog.git
+$ cd scotch-blog
+$ bundle install
+$ rake db:migrate
+$ rails s
+```
